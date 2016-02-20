@@ -1,5 +1,5 @@
 ---
-layout: news_item
+layout: post
 title: 'Jekyll 3.0 Released'
 date: 2015-10-26 15:37:30 -0700
 author: parkr
