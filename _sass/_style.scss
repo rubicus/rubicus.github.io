@@ -46,8 +46,9 @@ footer {
 
 header {
 
-  h1,
-  nav { display: inline-block; }
+    margin-top: 30px;
+    h1,
+    nav { display: inline-block; }
 
 }
 
@@ -62,7 +63,7 @@ nav {
 }
 
 .main-nav {
-  margin-top: 52px;
+  margin-top: 15px;
 
   li {
     margin-right: 10px;
