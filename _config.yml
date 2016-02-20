@@ -16,7 +16,7 @@ collections:
 
 name: "Rubicus' blog"
 description: Transform your plain text into static websites and blogs
-url: http://jekyllrb.com
+url: rubicus.github.io
 
 gems:
   - jekyll-feed
