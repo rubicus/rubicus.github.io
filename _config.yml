@@ -10,12 +10,8 @@ help_url: https://github.com/jekyll/jekyll-help
 
 timezone: Europe/Stockholm
 
-collections:
-  docs:
-    output: true
-
 name: "Rubicus' blog"
-description: Transform your plain text into static websites and blogs
+description: A blog about electronics, development and other stuff I feel fit in
 url: rubicus.github.io
 
 gems:
