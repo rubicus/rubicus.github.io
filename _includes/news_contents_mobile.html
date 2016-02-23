@@ -1,11 +1,16 @@
 <div class="docs-nav-mobile unit whole show-on-mobiles">
   <select onchange="if (this.value) window.location.href=this.value">
     <option value="">Navigate the blog…</option>
-    <option value="/news/">Home</option>
-    <optgroup label="v1.x">
-      {% for post in site.posts %}
-      <option value="{{ post.url }}">{{ post.title }}</option>
-      {% endfor %}
+    <option value="/">Home</option>
+    <optgroup label="Recent posts">
+        {% for post in site.posts limit:10 %}
+        <option value="{{ post.url }}">{{ post.title }}</option>
+        {% endfor %}
+    </optgroup>
+    <optgroup label="Tags">
+        {% for tag in site.tags %}
+        <option value="/tag/{{ tag[0] }}">{{ tag[0] }}</option>
+        {% endfor %}
     </optgroup>
   </select>
 </div>
