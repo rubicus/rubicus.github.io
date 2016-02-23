@@ -2,10 +2,6 @@ The layout and theme is mostly code from the Jekyll website (somewhat modified
 by me) and falls under the below mentioned MIT license. The contents of individual posts
 and pages however, is not, and is the copyright of Oskar Södergren.
 
-Code dealing with tags (for example the tag plugin) comes from the jekyll-clean-dark
-theme (https://github.com/streetturtle/jekyll-clean-dark) and is covered by Creative
-Commons Attribuition 4.0 License.
-
 ===================================
 The MIT License (MIT)
 
