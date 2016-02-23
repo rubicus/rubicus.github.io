@@ -4,6 +4,8 @@ title: 'Jekyll 3.0.0.beta1 Released'
 date: 2015-01-24 00:42:31 -0800
 author: parkr
 version: 3.0.0.beta1
+tags: 
+  - release
 ---
 
 Hey!

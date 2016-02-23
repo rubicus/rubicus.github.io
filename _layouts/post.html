@@ -7,11 +7,11 @@ layout: blog
     {{ page.title }}
     <a href="{{ page.url }}" class="permalink" title="Permalink">∞</a>
   </h2>
-  {% if page.categories != "" %}<span class="post-category">
+  <span class="post-category">
     <span class="label">
-      {{ page.categories | array_to_sentence_string }}
+      {{ page.tags | array_to_sentence_string }}
     </span>
-  </span>{% endif %}
+  </span>
   <div class="post-meta">
     <span class="post-date">
       {{ page.date | date_to_string }}

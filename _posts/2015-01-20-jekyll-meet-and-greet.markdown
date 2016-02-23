@@ -3,7 +3,8 @@ layout: post
 title: "Jekyll Meet & Greet at GitHub HQ"
 date: "2015-01-20 19:23:12 -0800"
 author: parkr
-categories: [meetup]
+tags: 
+  - meetup
 ---
 
 Hey! Our friends at GitHub have agreed to host a Jekyll meet & greet on
