@@ -1,0 +1,13 @@
+---
+title: "Tag filtered content"
+tag: "blog"
+layout: blog
+---
+
+{% for post in site.posts %}
+{% for tag in post.tags %}
+{% if tag == page.tag %}
+{% include news_item.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
