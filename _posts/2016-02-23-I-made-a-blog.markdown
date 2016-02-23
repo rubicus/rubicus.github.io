@@ -49,6 +49,15 @@ I create a new tag, I just have to copy a template folder, rename it, and rename
 one variable in one of its files. I might try to automate this one day, but I'm
 very pleased about the tag selection in the right hand menu right now!
 
+Jekyll also comes with its own development server, so I just need to
+
+```sh
+$ jekyll serve
+```
+
+to find my site on loopback port 4000, and it even regenerates pages
+automatically when it senses that they have been changed.
+
 There are still things I'd like to add though. For example, the site is currently
 very text heavy, so it'd be nice with some sort of picture per post in the
 overview. Also, it will currently list all blog posts in history on a single.

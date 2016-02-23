@@ -2,7 +2,7 @@ markdown: redcarpet
 highlighter: pygments
 excerpt_separator: ""
 
-# google_analytics_id: UA-50755011-1
+# google_analytics_id:
 
 repository: https://github.com/rubicus
 
