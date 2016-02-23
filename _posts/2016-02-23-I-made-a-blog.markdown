@@ -26,13 +26,13 @@ setup. I write a short YAML-header containing the title and some tags, and then
 the actual blog post in markdown. For example, the YAML header for this blog
 post looks like this:
 
-```YAML
+{% highlight YAML %}
 ---
 title: "I made a blog!"
 tags:
   - blog
 ---
-```
+{% endhighlight %}
 
 And the rest is just markdown. What did take way too much time though, was to
 get everything to look like I wanted it to. I have basically zero experience of
@@ -51,9 +51,9 @@ very pleased about the tag selection in the right hand menu right now!
 
 Jekyll also comes with its own development server, so I just need to
 
-```sh
+{% highlight bash %}
 $ jekyll serve
-```
+{% endhighlight %}
 
 to find my site on loopback port 4000, and it even regenerates pages
 automatically when it senses that they have been changed.
