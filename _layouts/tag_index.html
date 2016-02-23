@@ -5,19 +5,13 @@ layout: default
   <section class="news">
     <div class="grid">
 
-      {% include news_contents_mobile.html %}
+        {% include news_contents_mobile.html %}
 
         <div class="unit four-fifths">
-            {% for post in site.posts %}
-            {% for tag in post.tags %}
-            {% if tag == page.tag %}
-            {% include news_item.html %}
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
+            {{ content }}}
+        </div>
 
-
-            {% include news_contents.html %}
-            <div class="clear"></div>
+        {% include news_contents.html %}
+        <div class="clear"></div>
         </div>
   </section>

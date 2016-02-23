@@ -4,12 +4,14 @@
       <li class="{% if page.title == 'Blog home' %}current{% endif %}">
         <a href="/">All posts</a>
       </li>
-      <li class="{% if page.title == 'Releases' %}current{% endif %}">
-        <a href="/news/releases/">Jekyll Releases</a>
+      {% for tag in site.tags %}
+      <li class="{% if page.tag == tag[0] %}current{% endif %}">
+          <a href="/tag/{{ tag[0] }}">{{ tag[0] }}</a>
       </li>
+      {% endfor %}
     </ul>
 
-    <h4>Recent news</h4>
+    <h4>Recent posts</h4>
     <ul>
         {% for post in site.posts limit:10 %}
         <li class="{% if page.title == post.title %}current{% endif %}">
