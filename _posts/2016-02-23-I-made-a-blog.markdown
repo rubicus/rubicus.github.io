@@ -52,7 +52,7 @@ very pleased about the tag selection in the right hand menu right now!
 Jekyll also comes with its own development server, so I just need to
 
 {% highlight bash %}
-~ $ jekyll serve
+$ jekyll serve
 {% endhighlight %}
 
 to find my site on loopback port 4000, and it even regenerates pages
