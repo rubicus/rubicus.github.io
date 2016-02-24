@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: ""
 
-# google_analytics_id:
+google_analytics_id: UA-74268604-1
 
 repository: https://github.com/rubicus
 
