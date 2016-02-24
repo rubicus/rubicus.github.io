@@ -17,6 +17,9 @@ site.
 * Remove a bunch of old unused tag folders
 * double check that the template for tags is up to date with the blog tag
 * Make the author link write my name instead of nick (use config with variables)
+* Add github icon to github link
+* Add more links and stuff on about page (linkedin etc)
+* Get a better github profile picture
 * Add comment functionality (disquss?)
 * Add fucntionlity for pictures with posts
 * Make only parts of the posts (tohether with picture) show on the front page
