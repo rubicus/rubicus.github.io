@@ -12,6 +12,7 @@ site.
 ## TODO
 
 * Write more blog posts
+* Fix the not working icon
 * Write number of posts of each category
 * Fix so that tags of a post look better and link to correct tag page!
 * Remove a bunch of old unused tag folders
