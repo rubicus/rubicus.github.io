@@ -65,6 +65,9 @@ nav {
 
 .main-nav {
   margin-top: 15px;
+  ul {
+    text-align: center;
+  }
   li {
     margin-right: 10px;
 
@@ -153,11 +156,12 @@ h6:hover .header-link {
   opacity: 1;
 }
 
-@media (max-width: 795px) {
+@media (max-width: 680px) {
   .main-nav ul {
     text-align: right;
   }
 }
+/* the following lets buttons display on more than one line */
 @media (max-width: 830px) {
   .main-nav {
     .show-on-mobiles { display: inline; }
@@ -404,7 +408,7 @@ article {
   article ul { padding-left: 20px; }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 630px) {
   article { margin: 0; }
 }
 
@@ -592,7 +596,7 @@ article h2:first-child { margin-top: 0; }
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
-@media (max-width: 568px) {
+@media (max-width: 630px) {
   .post-category { padding-left: 30px; }
 }
 
@@ -841,7 +845,7 @@ code.output {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e6d42', endColorstr='#5c4e35',GradientType=0 );
 }
 
-@media (max-width: 568px) {
+@media (max-width: 630px) {
   .note { margin-right: -30px; }
 }
 
@@ -978,7 +982,7 @@ code.output {
   display: none;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 630px) {
   .show-on-mobiles {
     display: block !important;
   }
