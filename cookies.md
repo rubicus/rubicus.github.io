@@ -17,7 +17,8 @@ read, and used pretty much everywhere on the web.
 
 I use the demographics and interest report from their advertising features,
 which means data is collected by google advertising cookies and anonymous
-identifiers. Still, there is no personal information stored.
+identifiers, together with the google analytics cookie. Still, there is no
+identifying data stored.
 
 ## But I don't want to be tracked!
 
