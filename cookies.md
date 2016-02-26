@@ -9,14 +9,15 @@ how many posts they read and so on. To ge these statistics I use google analytic
 which does use cookies. These statistics are pretty much only used for satisfying
 my curiosity, and to see what people read about.
 
-Do understand that this info is forwarded to google, since they do the processing,
-but they are likely a lot more trustworthy when it comes to handling the data
-safely than I am! :)
 Read more [here](http://www.google.com/intl/en/policies/privacy/partners/) about
 how google uses this data. If you read this blog, you probably know what cookies
 are, but in case you don't, you can find more information on
 [Wikipedia](https://en.wikipedia.org/wiki/HTTP_cookie). It's a pretty interesting
 read, and used pretty much everywhere on the web.
+
+I use the demographics and interest report from their advertising features,
+which means data is collected by google advertising cookies and anonymous
+identifiers. Still, there is no personal information stored.
 
 ## But I don't want to be tracked!
 
@@ -28,3 +29,7 @@ cookies, or installing privacy lists in adblock. Check out
 by the EFF for example, or their
 [privacy badger](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)
 extension.
+
+As for google, you can see what information they have about you, and opt out by
+visiting their [ad settings page](https://www.google.com/settings/ads). They
+also have an [opt out browser plugin](https://tools.google.com/dlpage/gaoptout/).
