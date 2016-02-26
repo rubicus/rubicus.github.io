@@ -49,7 +49,10 @@ header {
     margin-top: 30px;
     margin-bottom: 40px;
     h1,
-    nav { display: inline-block; }
+    nav {
+        display: inline-block;
+        text-align: center;
+    }
 
 }
 
