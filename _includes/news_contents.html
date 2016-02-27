@@ -2,11 +2,11 @@
   <aside>
     <ul>
       <li class="{% if page.title == 'Blog home' %}current{% endif %}">
-        <a href="/">All posts</a>
+        <a href="/"><i class="fa fa-home fa-fw"></i>&nbsp;All posts</a>
       </li>
       {% for tag in site.tags %}
       <li class="{% if page.tag == tag[0] %}current{% endif %}">
-          <a href="/tag/{{ tag[0] }}">{{ tag[0] }}</a>
+          <a href="/tag/{{ tag[0] }}"><i class="fa fa-tag fa-fw"></i>&nbsp;{{ tag[0] }}&nbsp;({{ tag | last | size }})</a>
       </li>
       {% endfor %}
     </ul>
