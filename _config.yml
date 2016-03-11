@@ -24,3 +24,5 @@ defaults:
     values:
       layout: post
       author: rubicus
+
+excerpt_separator: <!--more-->

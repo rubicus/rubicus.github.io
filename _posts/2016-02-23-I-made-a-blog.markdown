@@ -19,6 +19,8 @@ git repository. This means all I really need is emacs, and this works very well
 for me with my newfound emacs love [spacemacs](http://spacemacs.org/). To publish,
 all I really need to do is just `SPC g P u`!
 
+<!--more-->
+
 Since Jekyll generates static pages, it's also really fast, secure and failsafe.
 However, despite being static pages it generates very nice lookgin pages, not
 much work is needed to get nice looking pages up when the overall framework is
