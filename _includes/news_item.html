@@ -1,7 +1,7 @@
 <article>
   <h2>
-    <a href="{{ post.url }}">
-      {{ post.title }}
+    <a href="{{ post.url }}" class="post-title-link">
+      {{ post.title }}&nbsp;<i class="fa fa-chevron-right"></i>
     </a>
   </h2>
   <span class="post-category">
@@ -19,6 +19,9 @@
     </a>
   </div>
   <div class="post-content">
-      {{ post.excerpt }} <a href="{{ post.url }}" class="more-link"> Read more</a>
+      {{ post.excerpt }}
+      <a href="{{ post.url }}" class="more-link">
+          Read more&nbsp;<i class="fa fa-angle-double-right"></i>
+      </a>
   </div>
 </article>

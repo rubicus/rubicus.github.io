@@ -91,13 +91,13 @@ nav {
     text-align: center;
   }
   li {
-    margin-right: 10px;
+    margin-right: 7px;
 
     a {
-      @include border-radius(5px);
+      @include border-radius(7px);
       font-weight: 900;
       font-size: 14px;
-      padding: 0.5em 1em;
+      padding: 0.5em 0.5em;
       text-shadow: none;
       text-transform: uppercase;
       @include transition(all .25s);
@@ -406,6 +406,29 @@ article h2:first-child { margin-top: 0; }
   @include border-radius(0 0 10px 10px);
   border-top: 1px solid #555;
   @include box-shadow(0 -1px 0 #282828);
+}
+
+.post-title-link,
+.more-link{
+    i {
+        display: inline-block;
+        left: -5px;
+        opacity: 0;
+        position: relative;
+        @include transition(left .15s ease-in-out, opacity .15s ease-in-out);
+        top: 0;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $hover-primary;
+
+        i {
+            opacity: 1;
+            left: 10px;
+        }
+    }
 }
 
 /* Code Highlighting */
