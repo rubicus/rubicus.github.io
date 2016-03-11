@@ -16,7 +16,6 @@
 .grid {
   display: block;
   clear: both;
-  max-width: 978px;
 }
 .grid .unit {
   float: left;
@@ -112,5 +111,14 @@
   }
   .hide-on-mobiles {
     display: none !important;
+  }
+}
+
+/* Expand the wrap a bit further on larger screens */
+@media screen and (min-width: 1180px) {
+  .wider .grid,
+  .grid.wider {
+    max-width: 1180px;
+    margin: 0 auto;
   }
 }
