@@ -12,10 +12,8 @@ site.
 ## TODO
 
 * Write more blog posts
-* Write number of posts of each category
 * make more interesting background with picture or similar
 * Fix so that tags of a post look better and link to correct tag page!
-* double check that the template for tags is up to date with the blog tag
 * Make the author link write my name instead of nick (use config with variables)
 * Add more links and stuff on about page (linkedin etc)
 * Get a better github profile picture
@@ -23,5 +21,5 @@ site.
 * Add functionality for pictures with posts
 * Make only parts of the posts (tohether with picture) show on the front page
 * Add "next"/"prev" buttons to new posts from old posts (look at other blogs)
-* Limit number of posts shown per page
+* Limit number of posts shown per page (pagination)
 * Make an archive for old blog posts
