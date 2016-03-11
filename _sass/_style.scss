@@ -6,11 +6,27 @@
   box-sizing: border-box;
 }
 
+$foreg-color: #ddd;
+$page-bgcolor: #333;
+$primary-color: #73e600;
+$hover-primary: #ddff00;
+$page-hoverbg: #252525;
+$footer-bg: #212121;
+$footer-fg: #c0c0c0;
+$footer-linkcolor: #fff;
+$article-bg: #444;
+$secondary-color: #c00;
+$bright-secondary: #9e2812;
+$dark-secondary: #6f0d0d;
+$code-bg: #2b2b2b;
+$code-fg: #fff;
+
+
 body {
   font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #ddd;
-  background-color: #333;
-  border-top: 5px solid #fc0;
+  color: $foreg-color;
+  background-color: $page-bgcolor;
+  border-top: 5px solid $primary-color;
   @include box-shadow(inset 0 3px 30px rgba(0,0,0,.3));
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   -webkit-font-feature-settings: "kern" 1;
@@ -87,7 +103,7 @@ nav {
       @include transition(all .25s);
 
       &:hover {
-        background-color: #252525;
+        background-color: $page-hoverbg;
         @include box-shadow(inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1));
         text-shadow: 0 1px 3px rgba(0,0,0,.5);
       }
@@ -96,8 +112,8 @@ nav {
     &.current {
 
       a {
-        background-color: #fc0;
-        color: #222;
+        background-color: $primary-color;
+        color: $page-bgcolor;
         @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
         text-shadow: 0 1px 0 rgba(255,255,255,.3);
       }
@@ -116,8 +132,8 @@ nav {
   a {
     float: left;
     width: 100%;
-    background-color: #333;
-    color: #fc0;
+    background-color: $page-bgcolor;
+    color: $primary-color;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -135,8 +151,8 @@ nav {
   .current {
 
     a {
-      background-color: #fc0;
-      color: #222;
+      background-color: $primary-color;
+      color: $page-bgcolor;
       @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
       text-shadow: 0 1px 0 rgba(255,255,255,.3);
     }
@@ -191,14 +207,14 @@ h6:hover .header-link {
 /* Footer */
 
 footer {
-  background-color: #212121;
+  background-color: $footer-bg;
   font-size: 16px;
   padding-bottom: 5px;
-  color: #c0c0c0;
+  color: $footer-fg;
   margin-top: 40px;
 
   a {
-    color: #fff;
+    color: $footer-linkcolor;
 
     &:hover {
 
@@ -232,7 +248,7 @@ footer {
 /* Article - Used for both docs and news */
 
 article {
-  background-color: #444;
+  background-color: $article-bg;
   @include border-radius(10px);
   padding: 20px;
   margin: 0 10px;
@@ -267,7 +283,7 @@ aside {
     padding: 0 0 10px 30px;
     margin-left: -30px;
     display: inline-block;
-    border-bottom: 1px solid #c00;
+    border-bottom: 1px solid $secondary-color;
   }
 
   ul {
@@ -285,7 +301,7 @@ aside {
       .tag-number {
           font-size: 14px;
           font-weight: bold;
-          background-color: #444;
+          background-color: $article-bg;
           padding: 0 7px 1px 7px;
           border-radius: 9px;
           display: inline-block;
@@ -294,7 +310,7 @@ aside {
 
     &.current a:before {
       content: "";
-      border-color: transparent transparent transparent #444;
+      border-color: transparent transparent transparent $article-bg;
       border-style: solid;
       border-width: 10px;
       width: 0;
@@ -330,21 +346,21 @@ article h2:first-child { margin-top: 0; }
   @include border-radius(0 5px 5px 0);
   position: relative;
   @include box-shadow(0 1px 5px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 0 rgba(0,0,0,.3));
-  background-color: #9e2812;
+  background-color: $bright-secondary;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzllMjgxMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZjBkMGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#9e2812), to(#6f0d0d));
-  background-image: -webkit-linear-gradient(top, #9e2812 0%, #6f0d0d 100%);
-  background-image: -moz-linear-gradient(top, #9e2812 0%, #6f0d0d 100%);
-  background-image: -o-linear-gradient(top, #9e2812 0%, #6f0d0d 100%);
-  background-image: linear-gradient(to bottom, #9e2812 0%,#6f0d0d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e2812', endColorstr='#6f0d0d',GradientType=0 );
+  background-image: -webkit-gradient(linear, left top, left bottom, from($bright-secondary), to($dark-secondary));
+  background-image: -webkit-linear-gradient(top, $bright-secondary 0%, $dark-secondary 100%);
+  background-image: -moz-linear-gradient(top, $bright-secondary 0%, $dark-secondary 100%);
+  background-image: -o-linear-gradient(top, $bright-secondary 0%, $dark-secondary 100%);
+  background-image: linear-gradient(to bottom, $bright-secondary 0%,$dark-secondary 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bright-secondary', endColorstr='$dark-secondary',GradientType=0 );
 
   &:before {
     content: "";
     position: absolute;
     top: -10px;
     left: 0;
-    border-color: transparent #6f0d0d #6f0d0d transparent;
+    border-color: transparent $dark-secondary $dark-secondary transparent;
     border-style: solid;
     border-width: 5px;
     width: 0;
@@ -377,7 +393,7 @@ article h2:first-child { margin-top: 0; }
 
 .post-meta {
   padding: 5px 0;
-  color: #c0c0c0;
+  color: $footer-fg;
   font-weight: 600;
   text-shadow: 0 -1px 0 #000;
 }
@@ -389,7 +405,7 @@ article h2:first-child { margin-top: 0; }
   margin-top: -10px;
   @include border-radius(0 0 10px 10px);
   border-top: 1px solid #555;
-  @include box-shadow(0 -1px 0 #2f2f2f);
+  @include box-shadow(0 -1px 0 #282828);
 }
 
 /* Code Highlighting */
@@ -416,8 +432,8 @@ li > code,
 li> pre,
 h5 > code,
 .note > code {
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: $code-bg;
+  color: $code-fg;
   max-width: 100%;
   overflow-x: auto;
   vertical-align: middle;
@@ -428,7 +444,7 @@ h5 > code,
 }
 
 .note code {
-  background-color: #333;
+  background-color: $page-bgcolor;
   background-color: rgba(0,0,0,0.2);
   margin-left: 2.5px;
   margin-right: 2.5px;
@@ -447,11 +463,11 @@ h5 > code,
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 a {
-  color: #fc0;
+  color: $primary-color;
   text-decoration: none;
   @include transition(all .25s);
 
-  &:hover { color: #f90; }
+  &:hover { color: $hover-primary; }
 }
 
 strong { font-weight: 700; }
@@ -712,7 +728,7 @@ code.output {
 
 .warning:after {
   content: '\203C';
-  color: #fc0;
+  color: $primary-color;
   position: absolute;
   top: 15px;
   left: 15px;
