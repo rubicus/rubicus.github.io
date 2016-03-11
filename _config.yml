@@ -15,7 +15,6 @@ url: rubicus.github.io
 gems:
   - jekyll-feed
   - jekyll-redirect-from
-  - jemoji
 
 defaults:
   -
