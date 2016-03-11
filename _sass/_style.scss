@@ -298,14 +298,24 @@ aside {
     a {
       font-size: 16px;
       position: relative;
+      @include transition(all .25s);
       .tag-number {
-          font-size: 14px;
+          font-size: 13px;
           font-weight: bold;
           background-color: $article-bg;
-          padding: 0 7px 1px 7px;
-          border-radius: 9px;
+          padding: 1px 7px 1px 7px;
+          text-shadow: none;
+          @include border-radius(9px);
           display: inline-block;
       }
+      &:hover {
+          .tag-number {
+              background-color: $page-hoverbg;
+              @include box-shadow(inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1));
+              text-shadow: 0 1px 3px rgba(0,0,0,.5);
+          }
+      }
+
     }
 
     &.current a:before {
