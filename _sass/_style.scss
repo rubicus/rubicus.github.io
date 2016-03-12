@@ -429,11 +429,8 @@ article h2:first-child { margin-top: 0; }
         top: 0;
     }
 
-    &:hover,
-    &:focus,
-    &:active {
+    &:hover {
         color: $hover-primary;
-
         i {
             opacity: 1;
             left: 10px;
