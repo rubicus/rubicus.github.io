@@ -1,9 +1,9 @@
 <div class="unit one-fifth hide-on-mobiles">
   <aside>
-    <h4>Tags</h4>
+    <h4>Tags&nbsp;&nbsp;<i class="fa fa-tags fa-fw"></i></h4>
     <ul>
       <li class="{% if page.title == 'Blog home' %}current{% endif %}">
-          <a href="/"><span class="tag-number">{{site.tags | size}}</span>&nbsp;All posts</a>
+          <a href="/"><span class="tag-number">{{site.posts | size}}</span>&nbsp;All posts</a>
       </li>
       {% for tag in site.tags %}
       <li class="{% if page.tag == tag[0] %}current{% endif %}">

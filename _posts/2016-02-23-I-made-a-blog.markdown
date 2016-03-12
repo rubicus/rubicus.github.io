@@ -1,7 +1,7 @@
 ---
 title: "I made a blog!"
 tags:
-  - blog
+  - jekyll
 ---
 
 I have long been thinking about starting a technical blog. I often tinker with
