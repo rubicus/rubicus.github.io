@@ -13,7 +13,7 @@ if you're just trying to get an overview the blog or trying to find something
 you're interested in. The answer to this problem is excerpts, and this blog post
 is going to be about these (and also utilizes them).
 
-What i initially tried to do was use the truncate liquid filter, like so:
+What i initially tried to do was use the truncatewords filter in liquid, like so:
 
 {% highlight liquid %}
 {% raw %}
