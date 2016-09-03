@@ -9,7 +9,7 @@ layout: blog
   </h2>
   <span class="post-category">
     <span class="label">
-      {{ page.tags | array_to_sentence_string }}
+      <i class="fa fa-tag fa-fw"></i>&nbsp;{{ page.tags | join: ", "}}
     </span>
   </span>
   <div class="post-meta">
