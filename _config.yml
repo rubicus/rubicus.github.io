@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: rouge
-excerpt_separator: ""
+#excerpt_separator: ""
 
 google_analytics_id: UA-74268604-1
 
@@ -10,7 +10,7 @@ timezone: Europe/Stockholm
 
 name: "Rubicus'&nbsp;blog"
 description: A blog about electronics, development and other stuff I feel fit in
-url: rubicus.github.io
+url: http://rubicus.github.io
 
 gems:
   - jekyll-feed
