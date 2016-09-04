@@ -16,6 +16,8 @@ site.
 * Make the author link write my name instead of nick (use config with variables)
 * Add more links and stuff on about page (linkedin etc)
 * Add comment functionality (disquss?)
-* Add functionality for pictures with posts
+* Add functionality for pictures with posts. Feature picture per article,
+  as well as picture titles. Check out responsive srcset images on
+  jekyll community page.
 * Limit number of posts shown per page (pagination)
 * Make an archive for old blog posts
