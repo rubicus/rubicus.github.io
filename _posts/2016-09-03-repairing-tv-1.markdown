@@ -2,7 +2,7 @@
 title: Repairing my TV - part 1
 tags:
   - repair
-...
+---
 
 I finally bought a TV after contemplating it for a long time! Got a used 37''
 LCD screen TV for what I considered to be a really good price. I used it for
@@ -21,7 +21,7 @@ be covering in this blog post.
 <!--more-->
 
 So my first thought was that there might be some bad caps in the power supply,
-so puting it face down on my sofa, I started to undo screws to have a closer
+so putting it face down on my sofa, I started to undo screws to have a closer
 look.
 After undoing 15-20 screws or so (an electric screwdriver would be nice), the
 back finally came off, and I could inspect the power supply. Sadly (depending on
@@ -36,8 +36,8 @@ plug the TV in and measure the rails. To me they seem fine, although I'm not
 certain about the tolerances that I have to play with here. I'm slightly
 concerned about the 13 V rail measuring 12.4 V during load, so if I can't find
 the problem elsewhere I might get back to that. Should be alright though I
-think. I am having some trouble finding
-a good reference for how big these can be though, so if anyone has any
+think. However, I am having some trouble finding
+a good reference for how big these can be, so if anyone has any
 good info on that, be sure to tell me! :)
 
 <img src="/img/tv-repair/measure.jpg">
@@ -64,11 +64,13 @@ off!
 
 <img src="/img/tv-repair/tcon.jpg">
 
-So now I've ordered a new chip, which was cheap. Hopefully, it will be enough
-to just replace it. I have some fears that there might be something other that
+So now I've ordered a new chip, which was cheap (like 5€ with some pretty quick
+delivery cheap). Hopefully, it will be enough
+to just replace that. I have some fears that there might be something other that
 is happening, causing the chip to break (like a faulty panel), but in many other
 cases I've read about, switching out the chip has seamingly fixed the issue,
-so my hopes are up. It comes in a 48 pin QFP, so it will not
+so my hopes are up. It comes in a 48 pin QFP, with a very fine pin pitch so it
+will not
 be entirely easy to switch out, but I believe it should be doable. It doesn't
 have an exposed back plate, so I shouldn't even need a heat gun for this.
 But since I have to wait for the chip to arrive first, that will have to be

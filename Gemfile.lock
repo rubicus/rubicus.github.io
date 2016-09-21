@@ -136,7 +136,11 @@ DEPENDENCIES
   github-pages
   jekyll-feed
   jekyll-redirect-from
+  jemoji
   minima
+
+RUBY VERSION
+   ruby 2.1.5p273
 
 BUNDLED WITH
    1.13.1
