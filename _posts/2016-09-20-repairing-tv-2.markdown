@@ -74,8 +74,8 @@ confidence you get by seeing what you're doing is invaluable!
 So now I only needed to get the new chip in place! Since I already had the solder
 in place, I shouldn't need any more, just lots and lots of flux (mm, flux
 fumes...). Get some good ventilation, or like me, open the window and turn on
-a fan! Trick was to get chip in the perfect position and then tack it down into
-position by heating up one of the corner pins and its corresponding pad,
+a fan! Trick was to get the chip in the perfect position and then tack it down
+into position by heating up one of the corner pins and its corresponding pad,
 reflowing the solder already on there to hold it in place. Then do the same to
 the opposite corner, and then it's just a question of doing all the other pins
 too.
@@ -89,7 +89,7 @@ some more practice it should probably not be needed.
 
 Anyway, after a while I was finally happy with the result. The chip wasn't
 pitch perfect in position (to little for me to see with just my eyes however),
-but there was no risk of bad connection or shorts. So here's another crappy
+but there was no risk of a bad connection or shorts. So here's another crappy
 picture with the new chip in placce! :) With the edge of a swedish 1 kr coin
 for comparison, to give a sense
 of scale.
@@ -97,7 +97,7 @@ of scale.
 <img src ="/img/tv-repair/newchip.jpg">
 
 So yeah. After that it was just to put it back in place, connect all the wires
-and hope for no smoke! There were no smoke, and the picture was back. So me
+and hope for no smoke! There was no smoke, and the picture was back. So me
 happy! And for the end, I'd just like to add some memorable words by Darth Vader:
 
 "[It's working! It's working!](https://www.youtube.com/watch?v=AXwGVXD7qEQ)"
