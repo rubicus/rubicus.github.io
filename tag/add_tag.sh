@@ -18,3 +18,8 @@ cp -R template "$1"
 sed -i -e "s/changethis/${1}/g" "$1/index.html"
 
 echo "Added an index page for the new tag '$1'"
+
+# Ideas for expanding script:
+#  - make it remove all tags, generate a list for all tags on site
+#    and make index pages for all of them. See if jekyll runtime
+#    can provide such a list
