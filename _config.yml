@@ -12,6 +12,8 @@ name: "Rubicus'&nbsp;blog"
 description: A blog about electronics, development and other stuff I feel fit in
 url: http://rubicus.github.io
 
+develop_mode: false
+
 gems:
   - jemoji
   - jekyll-feed

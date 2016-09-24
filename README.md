@@ -14,7 +14,6 @@ site. Also lots of cosmetic changes I find nice.
 * make more interesting background with picture or similar
 * Make the author link write my name instead of nick (use config with variables)
 * Add more links and stuff on about page (linkedin etc)
-* Add comment functionality (disquss?)
 * Add functionality for pictures with posts. Feature picture per article,
   as well as picture titles. Check out responsive srcset images on
   jekyll community page.
