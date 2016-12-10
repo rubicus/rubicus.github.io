@@ -2,6 +2,7 @@
 title: Repairing my TV - part 1
 tags:
   - repair
+  - TV
 ---
 
 I finally bought a TV after contemplating it for a long time! Got a used 37''

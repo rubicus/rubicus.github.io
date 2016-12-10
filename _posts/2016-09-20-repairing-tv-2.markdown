@@ -2,6 +2,7 @@
 title: Repairing my TV - part 2 - it's working!
 tags:
   - repair
+  - TV
 ---
 
 So here's a followup on my last post (found
